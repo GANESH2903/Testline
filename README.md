@@ -15,12 +15,13 @@ Features
 - Persistent State Management: Manage quiz state efficiently using Provider and ChangeNotifier pattern.
 
 Folder Structure
+```
 lib/
 ├── main.dart             # Entry point of the app
 ├── splash_screen.dart
 ├── screens/              # Contains all UI screens (e.g., HomePage, quizScreen and ResultScreen)
-|   ├── Components/
-|   |   ├── bubble_box.dart  # Contains UI for the animated box the displaying question
+│   ├── Components/
+│   │   ├── bubble_box.dart  # Contains UI for the animated box displaying the question
 │   ├── home_screen.dart
 │   ├── quiz_screen.dart
 │   └── results_screen.dart
@@ -28,7 +29,9 @@ lib/
 │   └── quiz_provider.dart
 ├── services/             # API services and data fetching logic
 │   └── quiz_service.dart
-assets/               # Lottie animations, images, and other assets
 
-# Screenshots and Vedios
+assets/                   # Lottie animations, images, and other assets
+
+```
+# Screenshots and Videos
 Google drive link : https://drive.google.com/drive/folders/1W_NxeMW8N7r7dQeT9hOXmZzQurBrKXMm?usp=sharing
